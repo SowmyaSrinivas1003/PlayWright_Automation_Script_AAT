@@ -28,7 +28,7 @@ for(let i:number =0 ; i<studentNames.length;i++){
 for(let finalMark of finalmarks){
     ToatalCountMarks=ToatalCountMarks+finalMark;
  }
-let AverageMarks =ToatalCountMarks/finalmarks.length;
+let AverageMarks :number =ToatalCountMarks/finalmarks.length;
 console.log(`Average Marks: ${AverageMarks}`);
 
 /*output is : Updated Marks:

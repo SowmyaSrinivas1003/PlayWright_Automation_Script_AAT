@@ -31,8 +31,10 @@ for(let finalMark of finalmarks){
 let AverageMarks :number =ToatalCountMarks/finalmarks.length;
 console.log(`Average Marks: ${AverageMarks}`);
 
-/*output is : Updated Marks:
+/*output is :
+Updated Marks:
 Sowmya : 85
 Yamini : 90
 Rohini : 92
+Average Marks: 89
 */

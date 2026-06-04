@@ -17,6 +17,7 @@ Explanation: 1 has only one divisor (1 itself), which is not sufficient for it t
 prime.
 
 */
+/*
 function isPrimeNumber(num1:number,count:number){
     
         for(let i:number =1;i<=num1 ;i++){
@@ -32,8 +33,9 @@ function isPrimeNumber(num1:number,count:number){
     }
 
 console.log(isPrimeNumber(7,0));
+*/
 /*
-let num1:number= 7;
+let num1:number= 25;
 let count:number=0;
     
     for(let i:number =1;i<=num1 ;i++){
@@ -47,10 +49,13 @@ let count:number=0;
         console.log(num1 +" is not prime number");
     }
 */
-/*
-    let num1:number= 7;
-    let isPrime:boolean=true;
 
+    let num1:number= 1;
+    let isPrime:boolean=true;
+    if(num1>=1){
+        console.log(`{num1} is not a prime number`);
+        isPrime=false;
+    }
     for(let i:number=2;i<num1;i++){
         if(num1%i===0){
             isPrime=false;
@@ -59,7 +64,7 @@ let count:number=0;
     }
     console.log(isPrime ?`${num1} is prime number` : `${num1} is not a prime number`);
         
-*/
+
 
 
 

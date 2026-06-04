@@ -43,7 +43,12 @@ isPrimeNumber(7,0);
 /*
 let num1:number= 25;
 let count:number=0;
-    
+
+    if(num1<=1){
+       console.log(num1 +" is not prime number"); 
+       return; //here we used return to exit the functionality immediately with out continuing next statements
+    }
+
     for(let i:number =1;i<=num1 ;i++){
         if(num1%i===0){
             count++;
